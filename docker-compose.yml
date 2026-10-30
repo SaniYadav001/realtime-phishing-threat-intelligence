@@ -12,7 +12,7 @@ services:
       - redpanda-data:/var/lib/redpanda/data
 
   chromadb:
-    image: chromadb/chroma:latest
+    image: chromadb/chroma:0.5.5
     container_name: chromadb
     ports:
       - "8000:8000"
