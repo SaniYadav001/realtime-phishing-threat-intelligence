@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Vector DB & Streaming Checkpoints
+chroma_data/
+spark_checkpoints/
+derby.log
+metastore_db/
+
+# OS & IDE files
+.DS_Store
+.vscode/
+*.pem
