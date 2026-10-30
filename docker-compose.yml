@@ -1,0 +1,23 @@
+services:
+  redpanda:
+    image: docker.redpanda.com/redpandadata/redpanda:v23.2.22
+    container_name: redpanda
+    command:
+      - redpanda
+      - start
+      - --mode dev-container
+    ports:
+      - "9092:9092"
+    volumes:
+      - redpanda-data:/var/lib/redpanda/data
+
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: chromadb
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./chroma_data:/chroma/chroma
+
+volumes:
+  redpanda-data:
