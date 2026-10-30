@@ -1,0 +1,11 @@
+id,text,label,source
+1,Hey are we still on for lunch at 12?,SAFE,SMS
+2,Your Amazon package has been delayed. Click here to reschedule delivery: http://amz-delivery-update.com,PHISHING,SMS
+3,Meeting agenda attached for Q3 review.,SAFE,EMAIL
+4,Dear customer, your State Bank account KYC is expiring. Update PAN here: http://sbi-kyc-auth.in,PHISHING,SMS
+5,Can you send me the presentation slides from yesterday?,SAFE,EMAIL
+6,Urgent: Update your SBl NetBanking PAN details at http://sbi-kyc-update-v2.net,PHISHING,SMS
+7,Netflix: Payment declined. Please update your billing info at http://netfIix-billing-update.com,PHISHING,EMAIL
+8,Happy birthday! Hope you have a great day.,SAFE,SMS
+9,Security Alert: Unauthorized login attempt from Russia. Secure account: http://google-security-verify.com,PHISHING,EMAIL
+10,Your HDFC credit card reward points are expiring today. Redeem at http://hdfc-rewards-portal.info,PHISHING,SMS
